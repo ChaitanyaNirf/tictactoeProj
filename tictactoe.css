@@ -1,0 +1,83 @@
+.box {
+    width: 300px;
+    height: 300px;       
+}
+
+.eachBox {
+    outline: 2px solid #f64c72;
+    float: left;
+    height: 100px;
+    width: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#da234a;
+    text-shadow: 1px 1px 2px rgb(73, 32, 13), 0 0 0.5em rgb(182, 14, 248);
+}
+
+.eachBox:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0.5em 0.5em 0.5em -0.4em #f1ff5c;
+    /* transform: translateY(-0.10em); */
+    cursor: pointer;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    /* color: #3500d3 ; */
+    color: #5cdb95;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px rgb(243, 33, 5), 0 0 1em rgb(182, 14, 248), 0 0 0.2em rgb(255, 0, 0);
+}
+
+button{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 0.5em 0.8em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.25s;
+    border-radius: 0.5em;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.10em);
+    cursor: pointer;
+}
+
+.reset {
+    text-align: center;
+    margin-top: 2em;
+}
+
+html {
+    background-color: #0c0032
+    /* background-color: #242582; */
+}
+
+.message {
+    margin:1em;
+    color:rgb(216, 224, 96);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgb(243, 33, 5), 0 0 1em rgb(182, 14, 248), 0 0 0.2em rgb(255, 0, 0);
+    /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
+
+}
