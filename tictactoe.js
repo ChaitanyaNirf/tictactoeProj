@@ -258,7 +258,7 @@ function check() {
     }
     if (object.c02 == object.c11) {
         if (object.c11 == object.c20) {
-            if (object.c11object == true) {
+            if (object.c11 == true) {
 //                 console.log("p2 won");
                 message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
