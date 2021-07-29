@@ -78,7 +78,7 @@ c00.addEventListener("click", function (e) {
         input = !input;
         object.c00 = input;
         audio.play();
-        console.log(object.c00)
+//         console.log(object.c00)
         symbol(object.c00, c00)
         counter = counter - 1;
         check();
@@ -91,7 +91,7 @@ c01.addEventListener("click", function (e) {
         input = !input;
         object.c01 = input;
         audio.play();
-        console.log(object.c01)
+//         console.log(object.c01)
         symbol(object.c01, c01)
         counter = counter - 1;
         check();
@@ -103,7 +103,7 @@ c02.addEventListener("click", function (e) {
         input = !input;
         object.c02 = input;
         audio.play();
-        console.log(object.c02)
+//         console.log(object.c02)
         symbol(object.c02, c02);
         counter = counter - 1;
         check();
@@ -115,7 +115,7 @@ c10.addEventListener("click", function (e) {
         input = !input;
         object.c10 = input;
         audio.play();
-        console.log(object.c10)
+//         console.log(object.c10)
         symbol(object.c10, c10)
         counter = counter - 1;
         check();
@@ -127,7 +127,7 @@ c11.addEventListener("click", function (e) {
         input = !input;
         object.c11 = input;
         audio.play();
-        console.log(object.c11)
+//         console.log(object.c11)
         symbol(object.c11, c11)
         counter = counter - 1;
         check();
@@ -139,7 +139,7 @@ c12.addEventListener("click", function (e) {
         input = !input;
         object.c12 = input;
         audio.play();
-        console.log(object.c12)
+//         console.log(object.c12)
         symbol(object.c12, c12)
         counter = counter - 1;
         check();
@@ -151,7 +151,7 @@ c20.addEventListener("click", function (e) {
         input = !input;
         object.c20 = input;
         audio.play();
-        console.log(object.c20)
+//         console.log(object.c20)
         symbol(object.c20, c20)
         counter = counter - 1;
         check();
@@ -163,7 +163,7 @@ c21.addEventListener("click", function (e) {
         input = !input;
         object.c21 = input;
         audio.play();
-        console.log(object.c21)
+//         console.log(object.c21)
         symbol(object.c21, c21)
         counter = counter - 1;
         check();
@@ -175,7 +175,7 @@ c22.addEventListener("click", function (e) {
         input = !input;
         object.c22 = input;
         audio.play();
-        console.log(object.c22)
+//         console.log(object.c22)
         symbol(object.c22, c22)
         counter = counter - 1;
         check();
@@ -188,14 +188,14 @@ function check() {
         if (object.c01 == object.c02) {
             // console.log("enter")
             if (object.c01 == true) {
-                console.log("p2 won");
+//                 console.log("p2 won");
                 audioOverall.pause();
                 audioWin.play();
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+                message.innerHTML = '( o ) won !!!'
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioWin.play();
             }
             return true;
@@ -205,14 +205,14 @@ function check() {
     if (object.c10 == object.c11) {
         if (object.c11 == object.c12) {
             if (object.c11 == true) {
-                console.log("p2 won");
+//                 console.log("p2 won");
                 audioOverall.pause();
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+                message.innerHTML = '( o ) won !!!'
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -223,14 +223,14 @@ function check() {
     if (object.c20 == object.c21) {
         if (object.c21 == object.c22) {
             if (object.c21 == true) {
-                console.log("p2 won");
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+//                 console.log("p2 won");
+                message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -241,14 +241,14 @@ function check() {
     if (object.c00 == object.c11) {
         if (object.c11 == object.c22) {
             if (object.c11 == true) {
-                console.log("p2 won");
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+//                 console.log("p2 won");
+                message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -259,14 +259,14 @@ function check() {
     if (object.c02 == object.c11) {
         if (object.c11 == object.c20) {
             if (object.c11object == true) {
-                console.log("p2 won");
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+//                 console.log("p2 won");
+                message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -277,14 +277,14 @@ function check() {
     if (object.c00 == object.c10) {
         if (object.c10 == object.c20) {
             if (object.c10 == true) {
-                console.log("p2 won");
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+//                 console.log("p2 won");
+                message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -295,14 +295,14 @@ function check() {
     if (object.c01 == object.c11) {
         if (object.c11 == object.c21) {
             if (object.c11 == true) {
-                console.log("p2 won");
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+//                 console.log("p2 won");
+                message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -313,14 +313,14 @@ function check() {
     if (object.c02 == object.c12) {
         if (object.c12 == object.c22) {
             if (object.c12 == true) {
-                console.log("p2 won");
-                message.innerHTML = 'Player 1 ( o ) won !!!'
+//                 console.log("p2 won");
+                message.innerHTML = '( o ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
             else {
-                console.log("P1 won");
-                message.innerHTML = 'Player 2 ( x ) won !!!'
+//                 console.log("P1 won");
+                message.innerHTML = '( x ) won !!!'
                 audioOverall.pause();
                 audioWin.play();
             }
@@ -358,31 +358,3 @@ function isEmpty(obj) {
         return true;
     }
 }
-
-//==============================================================================
-// var boxes = document.querySelectorAll('div.eachBox');
-// var input = false;
-// var colour = {
-//     false: 'blue',
-//     true: 'red'
-// }
-// // Setting up the actual functionality
-// for (box of boxes){
-//     console.log()
-//     box.addEventListener('click', function() {
-//         this.style.backgroundColor = colour[input];
-//         input = !input;
-//         // if(c)
-//         console.log(input);
-
-//     });
-// }
-// var isWinner = false;
-// var count = 9;
-// for(var i = 0; i < 9 && !isWinner; i++){
-//     // all rows
-//     // if(c00 = c01 = c02)
-//     // all columns
-
-//     // Two diagonals
-// }
