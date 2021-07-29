@@ -73,7 +73,7 @@ reset.addEventListener("click", function (e) {
 let counter = 9;
 
 c00.addEventListener("click", function (e) {
-    console.log("You clicked c00")
+//     console.log("You clicked c00")
     if (isEmpty(object.c00) && !check()) {
         input = !input;
         object.c00 = input;
@@ -86,7 +86,7 @@ c00.addEventListener("click", function (e) {
 
 })
 c01.addEventListener("click", function (e) {
-    console.log("You clicked c01")
+//     console.log("You clicked c01")
     if (isEmpty(object.c01) && !check()) {
         input = !input;
         object.c01 = input;
@@ -98,7 +98,7 @@ c01.addEventListener("click", function (e) {
     }
 })
 c02.addEventListener("click", function (e) {
-    console.log("You clicked c02")
+//     console.log("You clicked c02")
     if (isEmpty(object.c02) && !check()) {
         input = !input;
         object.c02 = input;
@@ -110,8 +110,8 @@ c02.addEventListener("click", function (e) {
     }
 })
 c10.addEventListener("click", function (e) {
+//         console.log("You clicked c10")
     if (isEmpty(object.c10) && !check()) {
-        console.log("You clicked c10")
         input = !input;
         object.c10 = input;
         audio.play();
@@ -122,7 +122,7 @@ c10.addEventListener("click", function (e) {
     }
 })
 c11.addEventListener("click", function (e) {
-    console.log("You clicked c11")
+//     console.log("You clicked c11")
     if (isEmpty(object.c11) && !check()) {
         input = !input;
         object.c11 = input;
@@ -134,7 +134,7 @@ c11.addEventListener("click", function (e) {
     }
 })
 c12.addEventListener("click", function (e) {
-    console.log("You clicked c12")
+//     console.log("You clicked c12")
     if (isEmpty(object.c12) && !check()) {
         input = !input;
         object.c12 = input;
@@ -146,7 +146,7 @@ c12.addEventListener("click", function (e) {
     }
 })
 c20.addEventListener("click", function (e) {
-    console.log("You clicked c20")
+//     console.log("You clicked c20")
     if (isEmpty(object.c20) && !check()) {
         input = !input;
         object.c20 = input;
@@ -158,7 +158,7 @@ c20.addEventListener("click", function (e) {
     }
 })
 c21.addEventListener("click", function (e) {
-    console.log("You clicked c21")
+//     console.log("You clicked c21")
     if (isEmpty(object.c21) && !check()) {
         input = !input;
         object.c21 = input;
@@ -170,7 +170,7 @@ c21.addEventListener("click", function (e) {
     }
 })
 c22.addEventListener("click", function (e) {
-    console.log("You clicked c22")
+//     console.log("You clicked c22")
     if (isEmpty(object.c22) && !check()) {
         input = !input;
         object.c22 = input;
